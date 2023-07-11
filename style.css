@@ -49,3 +49,24 @@ ul {
   height: 20px;
   width: 25%;
 }
+
+.header-content {
+  display: flex;
+  height: 280px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.left-para {
+  width: 50%;
+}
+
+.right-img {
+  width: 50%;
+}
+
+.right-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
