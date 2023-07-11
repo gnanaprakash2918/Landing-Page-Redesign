@@ -1,4 +1,23 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  outline: 2px solid red;
+}
+
+/* .dark-bg {
+  background-color: #1f2937;
+} */
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-bar {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
 }
