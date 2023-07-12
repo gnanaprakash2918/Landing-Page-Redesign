@@ -120,7 +120,7 @@ header {
 }
 
 .random-info {
-  height: 320px;
+  height: 600px;
   display: flex;
   flex-direction: column;
 }
@@ -129,4 +129,25 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.random-info .heading-span {
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.images {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 20px;
+}
+
+.image-containers {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  width: 22%;
+  height: 70%;
 }
