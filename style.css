@@ -198,3 +198,45 @@ header {
   margin-left: auto;
   font-style: bold;
 }
+
+.signup-section {
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-container {
+  height: 50%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  background-color: #3882f6;
+  border-radius: 8px;
+}
+
+.signup-container .left-half {
+  width: 70%;
+}
+
+.signup-container span {
+  font-size: 16px;
+}
+
+.signup-container .left-half,
+.signup-container .sign-up-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #f9faf8;
+}
+
+.signup-container .sign-up-button a {
+  color: #f9faf8;
+  display: flex;
+  padding: 12px;
+  border: 2px solid white;
+  width: 90px;
+  justify-content: center;
+  border-radius: 3px;
+}
