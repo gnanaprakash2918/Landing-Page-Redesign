@@ -252,3 +252,7 @@ footer span {
   font-size: 14px;
   color: #f9faf8;
 }
+
+.left-half span:nth-of-type(2) {
+  color: #e5e7eb;
+}
