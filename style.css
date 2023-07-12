@@ -240,3 +240,15 @@ header {
   justify-content: center;
   border-radius: 3px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+footer span {
+  font-size: 14px;
+  color: #f9faf8;
+}
